@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39A799C779365B4E9F469821 /* DefaultDeviceProfiles.ini in Sources */ = {isa = PBXBuildFile; fileRef = 6EF1EB4E659A8BF798C986A9 /* DefaultDeviceProfiles.ini */; };
+		91F6DDE87770C5A225363F8F /* DefaultEditor.ini in Sources */ = {isa = PBXBuildFile; fileRef = 9F1A6E3CBDFC1C4D72A426E5 /* DefaultEditor.ini */; };
+		1CA02256E208777020EF3683 /* DefaultEngine.ini in Sources */ = {isa = PBXBuildFile; fileRef = 5873D72E80F5FC38B15BAE4B /* DefaultEngine.ini */; };
+		2C4E399CAD3837ECD0F8CBD6 /* DefaultGame.ini in Sources */ = {isa = PBXBuildFile; fileRef = 4E6FC01DBECF6EAFE3EBE34A /* DefaultGame.ini */; };
+		24EDCC7DA8ED33C0F2D72993 /* DefaultInput.ini in Sources */ = {isa = PBXBuildFile; fileRef = CEDBC2E8B849B360A801E011 /* DefaultInput.ini */; };
+		459C9FD37FB0EDC5F0DAAF51 /* Jamfun.Build.cs in Sources */ = {isa = PBXBuildFile; fileRef = 5E8E99307BF888EE2CFB543C /* Jamfun.Build.cs */; };
+		7AFC716D8E10887913580D13 /* Jamfun.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B23EB6722CF9D912A81BE844 /* Jamfun.cpp */; };
+		102446793638E1E773194BBB /* Jamfun.Target.cs in Sources */ = {isa = PBXBuildFile; fileRef = 940AC694D607EE88F16DFF10 /* Jamfun.Target.cs */; };
+		B598FEA846B56A21864682FE /* Jamfun.uproject in Sources */ = {isa = PBXBuildFile; fileRef = 10E4841AB4578BB4EF66F8B7 /* Jamfun.uproject */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6EF1EB4E659A8BF798C986A9 /* DefaultDeviceProfiles.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultDeviceProfiles.ini"; path = "../../Config/DefaultDeviceProfiles.ini"; sourceTree = SOURCE_ROOT; };
+		9F1A6E3CBDFC1C4D72A426E5 /* DefaultEditor.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultEditor.ini"; path = "../../Config/DefaultEditor.ini"; sourceTree = SOURCE_ROOT; };
+		5873D72E80F5FC38B15BAE4B /* DefaultEngine.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultEngine.ini"; path = "../../Config/DefaultEngine.ini"; sourceTree = SOURCE_ROOT; };
+		4E6FC01DBECF6EAFE3EBE34A /* DefaultGame.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultGame.ini"; path = "../../Config/DefaultGame.ini"; sourceTree = SOURCE_ROOT; };
+		CEDBC2E8B849B360A801E011 /* DefaultInput.ini */ = {isa = PBXFileReference; explicitFileType = file.text; name = "DefaultInput.ini"; path = "../../Config/DefaultInput.ini"; sourceTree = SOURCE_ROOT; };
+		5E8E99307BF888EE2CFB543C /* Jamfun.Build.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "Jamfun.Build.cs"; path = "../Source/Jamfun.Build.cs"; sourceTree = SOURCE_ROOT; };
+		B23EB6722CF9D912A81BE844 /* Jamfun.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; name = "Jamfun.cpp"; path = "../Source/Jamfun.cpp"; sourceTree = SOURCE_ROOT; };
+		940AC694D607EE88F16DFF10 /* Jamfun.Target.cs */ = {isa = PBXFileReference; explicitFileType = file.text; name = "Jamfun.Target.cs"; path = "../Source/Jamfun.Target.cs"; sourceTree = SOURCE_ROOT; };
+		10E4841AB4578BB4EF66F8B7 /* Jamfun.uproject */ = {isa = PBXFileReference; explicitFileType = file.text; name = "Jamfun.uproject"; path = "../../Jamfun.uproject"; sourceTree = SOURCE_ROOT; };
+		5CC62E556F6C474F27604A9B /* Jamfun */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = Jamfun; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE75BD2F5856A84C9BB3933D = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AFC716D8E10887913580D13 /* Jamfun.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXContainerItemProxy section */
+		EA19327C66A5952B490518A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9853F0B3ADC95BBBB18F161B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEDD6973D8063C3CA4B21052;
+			remoteInfo = "Jamfun_Build";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXGroup section */
+		2070B86444812380322DB9FB = {
+			isa = PBXGroup;
+			children = (
+				82401F3A3C912BC1229FADC9 /* Config */,
+				9D729BCDBC37727C509207AE /* Intermediate */,
+				10E4841AB4578BB4EF66F8B7 /* Jamfun.uproject */,
+				2B11DC043CC3D7AC0B3836DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82401F3A3C912BC1229FADC9 = {
+			isa = PBXGroup;
+			children = (
+				6EF1EB4E659A8BF798C986A9 /* DefaultDeviceProfiles.ini */,
+				9F1A6E3CBDFC1C4D72A426E5 /* DefaultEditor.ini */,
+				5873D72E80F5FC38B15BAE4B /* DefaultEngine.ini */,
+				4E6FC01DBECF6EAFE3EBE34A /* DefaultGame.ini */,
+				CEDBC2E8B849B360A801E011 /* DefaultInput.ini */,
+			);
+			name = "Config";
+			path = "/Users/tostegroo/Projects/Unreal/proto-unreal-tf-jamfun/Jamfun/Config";
+			sourceTree = "<absolute>";
+		};
+		9D729BCDBC37727C509207AE = {
+			isa = PBXGroup;
+			children = (
+				357C79BC3ADF2189486BC2E2 /* Source */,
+			);
+			name = "Intermediate";
+			path = "/Users/tostegroo/Projects/Unreal/proto-unreal-tf-jamfun/Jamfun/Intermediate";
+			sourceTree = "<absolute>";
+		};
+		357C79BC3ADF2189486BC2E2 = {
+			isa = PBXGroup;
+			children = (
+				5E8E99307BF888EE2CFB543C /* Jamfun.Build.cs */,
+				B23EB6722CF9D912A81BE844 /* Jamfun.cpp */,
+				940AC694D607EE88F16DFF10 /* Jamfun.Target.cs */,
+			);
+			name = "Source";
+			path = "/Users/tostegroo/Projects/Unreal/proto-unreal-tf-jamfun/Jamfun/Intermediate/Source";
+			sourceTree = "<absolute>";
+		};
+		2B11DC043CC3D7AC0B3836DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CC62E556F6C474F27604A9B /* Jamfun */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		FEDD6973D8063C3CA4B21052 /* Jamfun_Build */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG) \"/Users/tostegroo/Projects/Unreal/proto-unreal-tf-jamfun/Jamfun/Jamfun.uproject\"";
+			buildConfigurationList = CBA2D4F35F74B28140422CD9 /* Build configuration list for PBXLegacyTarget "Jamfun_Build" */;
+			buildPhases = (
+			);
+			buildToolPath = "/Users/Shared/Epic Games/UE_4.21/Engine/Build/BatchFiles/Mac/Build.sh";
+			buildWorkingDirectory = "/Users/Shared/Epic Games/UE_4.21";
+			dependencies = (
+			);
+			name = "Jamfun_Build";
+			passBuildSettingsInEnvironment = 1;
+			productName = "Jamfun_Build";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		43C75CD1F3E36609FEEB70FB /* Jamfun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D20E9EFA6BFD1F3B99F49FFC /* Build configuration list for PBXNativeTarget "Jamfun" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = "Jamfun";
+			passBuildSettingsInEnvironment = 1;
+			productName = "Jamfun";
+			productReference = "5CC62E556F6C474F27604A9B";
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXNativeTarget section */
+		5CBDFA514E1BC489CE977E88 /* Jamfun_Index */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C225342C9DCFEAAB6DB8ACC /* Build configuration list for PBXNativeTarget "Jamfun_Index" */;
+			buildPhases = (
+				EE75BD2F5856A84C9BB3933D /* Sources */,
+			);
+			dependencies = (
+			);
+			name = "Jamfun_Index";
+			passBuildSettingsInEnvironment = 1;
+			productName = "Jamfun_Index";
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9853F0B3ADC95BBBB18F161B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2000;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+				TargetAttributes = {
+					43C75CD1F3E36609FEEB70FB = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 0CEAED88ED868333244BB73C /* Build configuration list for PBXProject "Jamfun" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en
+			);
+			mainGroup = 2070B86444812380322DB9FB;
+			productRefGroup = 2B11DC043CC3D7AC0B3836DE;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			43C75CD1F3E36609FEEB70FB /* Jamfun */,
+			FEDD6973D8063C3CA4B21052 /* Jamfun_Build */,
+			5CBDFA514E1BC489CE977E88 /* Jamfun_Index */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		11F7772F6B96E8DE31F25DDB /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+				);
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "DebugGame";
+		};
+		5F47D89081AB033781A86B77 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+				);
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Development";
+		};
+		FDE8693283784EAC320CC5C4 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"__INTELLISENSE__",
+					"MONOLITHIC_BUILD=1",
+				);
+				HEADER_SEARCH_PATHS = (
+				);
+				USER_HEADER_SEARCH_PATHS = (
+				);
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				USE_HEADERMAP = NO;
+			};
+			name = "Shipping";
+		};
+		AA7EF760740B31E739D975CE /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				"PRODUCT_NAME[sdk=macosx*]" = "Jamfun-Mac-DebugGame";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "Jamfun";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = C337978RUT;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Fabio Toste (V4WHP3U76W)";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "b81383f6-8663-4dd9-87aa-19ce400491fc";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/tostegroo/Projects/Unreal/proto-unreal-tf-jamfun/Jamfun/Binaries/Mac";
+				"SDKROOT[sdk=macosx]" = macosx;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/tostegroo/Projects/Unreal/proto-unreal-tf-jamfun/Jamfun/Binaries/IOS/Payload";
+				INFOPLIST_FILE = "/Users/tostegroo/Projects/Unreal/proto-unreal-tf-jamfun/Jamfun/Intermediate/IOS/Jamfun-Info.plist";
+				CODE_SIGN_ENTITLEMENTS = "/Users/tostegroo/Projects/Unreal/proto-unreal-tf-jamfun/Jamfun/Intermediate/IOS/Jamfun.entitlements";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				SDKROOT = iphoneos;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_4.21/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		6E0C5AC492E55D0C8BB214CC /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				"PRODUCT_NAME[sdk=macosx*]" = "Jamfun";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "Jamfun";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = C337978RUT;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Fabio Toste (V4WHP3U76W)";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "b81383f6-8663-4dd9-87aa-19ce400491fc";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/tostegroo/Projects/Unreal/proto-unreal-tf-jamfun/Jamfun/Binaries/Mac";
+				"SDKROOT[sdk=macosx]" = macosx;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/tostegroo/Projects/Unreal/proto-unreal-tf-jamfun/Jamfun/Binaries/IOS/Payload";
+				INFOPLIST_FILE = "/Users/tostegroo/Projects/Unreal/proto-unreal-tf-jamfun/Jamfun/Intermediate/IOS/Jamfun-Info.plist";
+				CODE_SIGN_ENTITLEMENTS = "/Users/tostegroo/Projects/Unreal/proto-unreal-tf-jamfun/Jamfun/Intermediate/IOS/Jamfun.entitlements";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				SDKROOT = iphoneos;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_4.21/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		13210B08F188081F901D30C2 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				"PRODUCT_NAME[sdk=macosx*]" = "Jamfun-Mac-Shipping";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "Jamfun";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = C337978RUT;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Fabio Toste (V4WHP3U76W)";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "b81383f6-8663-4dd9-87aa-19ce400491fc";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/tostegroo/Projects/Unreal/proto-unreal-tf-jamfun/Jamfun/Binaries/Mac";
+				"SDKROOT[sdk=macosx]" = macosx;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/tostegroo/Projects/Unreal/proto-unreal-tf-jamfun/Jamfun/Binaries/IOS/Payload";
+				INFOPLIST_FILE = "/Users/tostegroo/Projects/Unreal/proto-unreal-tf-jamfun/Jamfun/Intermediate/IOS/Jamfun-Info.plist";
+				CODE_SIGN_ENTITLEMENTS = "/Users/tostegroo/Projects/Unreal/proto-unreal-tf-jamfun/Jamfun/Intermediate/IOS/Jamfun.entitlements";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				SDKROOT = iphoneos;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_4.21/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+		C4F428DB846C5F777E9EF344 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				UE_BUILD_TARGET_NAME = "Jamfun";
+				UE_BUILD_TARGET_CONFIG = "DebugGame";
+			};
+			name = "DebugGame";
+		};
+		CABC97E12C79B6E36F4E7C3C /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				UE_BUILD_TARGET_NAME = "Jamfun";
+				UE_BUILD_TARGET_CONFIG = "Development";
+			};
+			name = "Development";
+		};
+		EF8A71CFEF719001B554E443 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				UE_BUILD_TARGET_NAME = "Jamfun";
+				UE_BUILD_TARGET_CONFIG = "Shipping";
+			};
+			name = "Shipping";
+		};
+		4BA740755057ADFC17E184D9 /* "DebugGame" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				"PRODUCT_NAME[sdk=macosx*]" = "Jamfun-Mac-DebugGame";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "Jamfun";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = C337978RUT;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Fabio Toste (V4WHP3U76W)";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "b81383f6-8663-4dd9-87aa-19ce400491fc";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/tostegroo/Projects/Unreal/proto-unreal-tf-jamfun/Jamfun/Binaries/Mac";
+				"SDKROOT[sdk=macosx]" = macosx;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/tostegroo/Projects/Unreal/proto-unreal-tf-jamfun/Jamfun/Binaries/IOS/Payload";
+				INFOPLIST_FILE = "/Users/tostegroo/Projects/Unreal/proto-unreal-tf-jamfun/Jamfun/Intermediate/IOS/Jamfun-Info.plist";
+				CODE_SIGN_ENTITLEMENTS = "/Users/tostegroo/Projects/Unreal/proto-unreal-tf-jamfun/Jamfun/Intermediate/IOS/Jamfun.entitlements";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				SDKROOT = iphoneos;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_4.21/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "DebugGame";
+		};
+		93CFF6D29ABBC3A33CC80643 /* "Development" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				"PRODUCT_NAME[sdk=macosx*]" = "Jamfun";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "Jamfun";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = C337978RUT;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Fabio Toste (V4WHP3U76W)";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "b81383f6-8663-4dd9-87aa-19ce400491fc";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/tostegroo/Projects/Unreal/proto-unreal-tf-jamfun/Jamfun/Binaries/Mac";
+				"SDKROOT[sdk=macosx]" = macosx;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/tostegroo/Projects/Unreal/proto-unreal-tf-jamfun/Jamfun/Binaries/IOS/Payload";
+				INFOPLIST_FILE = "/Users/tostegroo/Projects/Unreal/proto-unreal-tf-jamfun/Jamfun/Intermediate/IOS/Jamfun-Info.plist";
+				CODE_SIGN_ENTITLEMENTS = "/Users/tostegroo/Projects/Unreal/proto-unreal-tf-jamfun/Jamfun/Intermediate/IOS/Jamfun.entitlements";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				SDKROOT = iphoneos;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_4.21/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Development";
+		};
+		0F845FF6FFCF0A870931BE79 /* "Shipping" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				"PRODUCT_NAME[sdk=macosx*]" = "Jamfun-Mac-Shipping";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				"PRODUCT_NAME[sdk=iphoneos*]" = "Jamfun";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = C337978RUT;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Fabio Toste (V4WHP3U76W)";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "b81383f6-8663-4dd9-87aa-19ce400491fc";
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = "/Users/tostegroo/Projects/Unreal/proto-unreal-tf-jamfun/Jamfun/Binaries/Mac";
+				"SDKROOT[sdk=macosx]" = macosx;
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				COMBINE_HIDPI_IMAGES = YES;
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = "/Users/tostegroo/Projects/Unreal/proto-unreal-tf-jamfun/Jamfun/Binaries/IOS/Payload";
+				INFOPLIST_FILE = "/Users/tostegroo/Projects/Unreal/proto-unreal-tf-jamfun/Jamfun/Intermediate/IOS/Jamfun-Info.plist";
+				CODE_SIGN_ENTITLEMENTS = "/Users/tostegroo/Projects/Unreal/proto-unreal-tf-jamfun/Jamfun/Intermediate/IOS/Jamfun.entitlements";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				SDKROOT = iphoneos;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/Shared/Epic Games/UE_4.21/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h";
+			};
+			name = "Shipping";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CEAED88ED868333244BB73C /* Build configuration list for PBXProject "Jamfun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11F7772F6B96E8DE31F25DDB /* "DebugGame" */,
+				5F47D89081AB033781A86B77 /* "Development" */,
+				FDE8693283784EAC320CC5C4 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		CBA2D4F35F74B28140422CD9 /* Build configuration list for PBXLegacyTarget "Jamfun_Build" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4F428DB846C5F777E9EF344 /* "DebugGame" */,
+				CABC97E12C79B6E36F4E7C3C /* "Development" */,
+				EF8A71CFEF719001B554E443 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		D20E9EFA6BFD1F3B99F49FFC /* Build configuration list for PBXNativeTarget "Jamfun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA7EF760740B31E739D975CE /* "DebugGame" */,
+				6E0C5AC492E55D0C8BB214CC /* "Development" */,
+				13210B08F188081F901D30C2 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		3C225342C9DCFEAAB6DB8ACC /* Build configuration list for PBXNativeTarget "Jamfun_Index" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BA740755057ADFC17E184D9 /* "DebugGame" */,
+				93CFF6D29ABBC3A33CC80643 /* "Development" */,
+				0F845FF6FFCF0A870931BE79 /* "Shipping" */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9853F0B3ADC95BBBB18F161B /* Project object */;
+}
