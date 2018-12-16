@@ -1,0 +1,1228 @@
+[2018.12.15-21.21.46:481]: LOG: LogDefault     : CmdLine: WebRTCProxy_x64_Development.exe 
+[2018.12.15-21.21.46:485]: LOG: LogDefault     : Connecting to UE4 127.0.0.1:8124
+[2018.12.15-21.37.13:470]: LOG: LogDefault     : Connected to UE4
+[2018.12.15-21.37.13:470]: LOG: LogDefault     : Connecting to Cirrus 127.0.0.1:8888
+[2018.12.15-21.37.13:471]: LOG: LogDefault     : Connected to Cirrus
+[2018.12.15-21.37.13:473]: LOG: LogDefault     : Cirrus config : {
+   "peerConnectionConfig" : {}
+}
+
+[2018.12.15-21.37.25:387]: LOG: LogDefault     : FClientSession::FClientSession: ClientId=101
+[2018.12.15-21.37.25:390]: LOG: LogDefault     : FClientSession::OnRenegotiationNeeded : ClientId=101
+[2018.12.15-21.37.25:390]: LOG: LogDefault     : FClientSession::OnRenegotiationNeeded : ClientId=101
+[2018.12.15-21.37.25:391]: LOG: LogDefault     : Received offer from client 101 : v=0
+o=- 7304775838321474684 2 IN IP4 127.0.0.1
+s=-
+t=0 0
+a=group:BUNDLE 0 1 2
+a=msid-semantic: WMS
+m=audio 9 UDP/TLS/RTP/SAVPF 111 103 104 9 0 8 106 105 13 110 112 113 126
+c=IN IP4 0.0.0.0
+a=rtcp:9 IN IP4 0.0.0.0
+a=ice-ufrag:ghzY
+a=ice-pwd:iD9dbiNazMdvkr3EgayA0q+P
+a=ice-options:trickle
+a=fingerprint:sha-256 EE:F9:66:E5:D1:B7:60:B8:E5:6E:1F:15:C8:CB:55:D2:CF:69:AC:6A:F7:20:B1:CA:3F:D4:ED:9F:60:18:04:36
+a=setup:actpass
+a=mid:0
+a=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level
+a=extmap:9 urn:ietf:params:rtp-hdrext:sdes:mid
+a=recvonly
+a=rtcp-mux
+a=rtpmap:111 opus/48000/2
+a=rtcp-fb:111 transport-cc
+a=fmtp:111 minptime=10;useinbandfec=1
+a=rtpmap:103 ISAC/16000
+a=rtpmap:104 ISAC/32000
+a=rtpmap:9 G722/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:8 PCMA/8000
+a=rtpmap:106 CN/32000
+a=rtpmap:105 CN/16000
+a=rtpmap:13 CN/8000
+a=rtpmap:110 telephone-event/48000
+a=rtpmap:112 telephone-event/32000
+a=rtpmap:113 telephone-event/16000
+a=rtpmap:126 telephone-event/8000
+m=video 9 UDP/TLS/RTP/SAVPF 96 97 98 99 100 101 102 122 127 121 125 107 108 109 124 120 123 119 114
+c=IN IP4 0.0.0.0
+a=rtcp:9 IN IP4 0.0.0.0
+a=ice-ufrag:ghzY
+a=ice-pwd:iD9dbiNazMdvkr3EgayA0q+P
+a=ice-options:trickle
+a=fingerprint:sha-256 EE:F9:66:E5:D1:B7:60:B8:E5:6E:1F:15:C8:CB:55:D2:CF:69:AC:6A:F7:20:B1:CA:3F:D4:ED:9F:60:18:04:36
+a=setup:actpass
+a=mid:1
+a=extmap:2 urn:ietf:params:rtp-hdrext:toffset
+a=extmap:3 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time
+a=extmap:4 urn:3gpp:video-orientation
+a=extmap:5 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01
+a=extmap:6 http://www.webrtc.org/experiments/rtp-hdrext/playout-delay
+a=extmap:7 http://www.webrtc.org/experiments/rtp-hdrext/video-content-type
+a=extmap:8 http://www.webrtc.org/experiments/rtp-hdrext/video-timing
+a=extmap:9 urn:ietf:params:rtp-hdrext:sdes:mid
+a=recvonly
+a=rtcp-mux
+a=rtcp-rsize
+a=rtpmap:96 VP8/90000
+a=rtcp-fb:96 goog-remb
+a=rtcp-fb:96 transport-cc
+a=rtcp-fb:96 ccm fir
+a=rtcp-fb:96 nack
+a=rtcp-fb:96 nack pli
+a=rtpmap:97 rtx/90000
+a=fmtp:97 apt=96
+a=rtpmap:98 VP9/90000
+a=rtcp-fb:98 goog-remb
+a=rtcp-fb:98 transport-cc
+a=rtcp-fb:98 ccm fir
+a=rtcp-fb:98 nack
+a=rtcp-fb:98 nack pli
+a=fmtp:98 x-google-profile-id=0
+a=rtpmap:99 rtx/90000
+a=fmtp:99 apt=98
+a=rtpmap:100 H264/90000
+a=rtcp-fb:100 goog-remb
+a=rtcp-fb:100 transport-cc
+a=rtcp-fb:100 ccm fir
+a=rtcp-fb:100 nack
+a=rtcp-fb:100 nack pli
+a=fmtp:100 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42001f;x-google-start-bitrate=20000;x-google-max-bitrate=100000
+a=rtpmap:101 rtx/90000
+a=fmtp:101 apt=100
+a=rtpmap:102 H264/90000
+a=rtcp-fb:102 goog-remb
+a=rtcp-fb:102 transport-cc
+a=rtcp-fb:102 ccm fir
+a=rtcp-fb:102 nack
+a=rtcp-fb:102 nack pli
+a=fmtp:102 level-asymmetry-allowed=1;packetization-mode=0;profile-level-id=42001f;x-google-start-bitrate=20000;x-google-max-bitrate=100000
+a=rtpmap:122 rtx/90000
+a=fmtp:122 apt=102
+a=rtpmap:127 H264/90000
+a=rtcp-fb:127 goog-remb
+a=rtcp-fb:127 transport-cc
+a=rtcp-fb:127 ccm fir
+a=rtcp-fb:127 nack
+a=rtcp-fb:127 nack pli
+a=fmtp:127 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42e01f;x-google-start-bitrate=20000;x-google-max-bitrate=100000
+a=rtpmap:121 rtx/90000
+a=fmtp:121 apt=127
+a=rtpmap:125 H264/90000
+a=rtcp-fb:125 goog-remb
+a=rtcp-fb:125 transport-cc
+a=rtcp-fb:125 ccm fir
+a=rtcp-fb:125 nack
+a=rtcp-fb:125 nack pli
+a=fmtp:125 level-asymmetry-allowed=1;packetization-mode=0;profile-level-id=42e01f;x-google-start-bitrate=20000;x-google-max-bitrate=100000
+a=rtpmap:107 rtx/90000
+a=fmtp:107 apt=125
+a=rtpmap:108 H264/90000
+a=rtcp-fb:108 goog-remb
+a=rtcp-fb:108 transport-cc
+a=rtcp-fb:108 ccm fir
+a=rtcp-fb:108 nack
+a=rtcp-fb:108 nack pli
+a=fmtp:108 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=4d0032;x-google-start-bitrate=20000;x-google-max-bitrate=100000
+a=rtpmap:109 rtx/90000
+a=fmtp:109 apt=108
+a=rtpmap:124 H264/90000
+a=rtcp-fb:124 goog-remb
+a=rtcp-fb:124 transport-cc
+a=rtcp-fb:124 ccm fir
+a=rtcp-fb:124 nack
+a=rtcp-fb:124 nack pli
+a=fmtp:124 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=640032;x-google-start-bitrate=20000;x-google-max-bitrate=100000
+a=rtpmap:120 rtx/90000
+a=fmtp:120 apt=124
+a=rtpmap:123 red/90000
+a=rtpmap:119 rtx/90000
+a=fmtp:119 apt=123
+a=rtpmap:114 ulpfec/90000
+m=application 9 DTLS/SCTP 5000
+c=IN IP4 0.0.0.0
+a=ice-ufrag:ghzY
+a=ice-pwd:iD9dbiNazMdvkr3EgayA0q+P
+a=ice-options:trickle
+a=fingerprint:sha-256 EE:F9:66:E5:D1:B7:60:B8:E5:6E:1F:15:C8:CB:55:D2:CF:69:AC:6A:F7:20:B1:CA:3F:D4:ED:9F:60:18:04:36
+a=setup:actpass
+a=mid:2
+a=sctpmap:5000 webrtc-datachannel 1024
+
+[2018.12.15-21.37.25:394]: LOG: LogDefault     : FClientSession::OnSignalingChange : ClientId=101, NewState=kHaveRemoteOffer
+[2018.12.15-21.37.25:395]: LOG: LogDefault     : Received ICE candidate from Client 101 : {"candidate":"candidate:3484812266 1 udp 2113937151 192.168.2.48 57682 typ host generation 0 ufrag ghzY network-cost 999","sdpMid":"0","sdpMLineIndex":0,"usernameFragment":"ghzY"}
+[2018.12.15-21.37.25:396]: LOG: LogDefault     : Received ICE candidate from Client 101 : {"candidate":"candidate:3484812266 1 udp 2113937151 192.168.2.48 57684 typ host generation 0 ufrag ghzY network-cost 999","sdpMid":"1","sdpMLineIndex":1,"usernameFragment":"ghzY"}
+[2018.12.15-21.37.25:396]: LOG: LogDefault     : Received ICE candidate from Client 101 : {"candidate":"candidate:3484812266 1 udp 2113937151 192.168.2.48 57686 typ host generation 0 ufrag ghzY network-cost 999","sdpMid":"2","sdpMLineIndex":2,"usernameFragment":"ghzY"}
+[2018.12.15-21.37.25:397]: LOG: LogDefault     : Answer for client 101 : v=0
+o=- 1040164620588194493 2 IN IP4 127.0.0.1
+s=-
+t=0 0
+a=group:BUNDLE 0 1 2
+a=msid-semantic: WMS stream_id
+m=audio 9 UDP/TLS/RTP/SAVPF 111 110
+c=IN IP4 0.0.0.0
+a=rtcp:9 IN IP4 0.0.0.0
+a=ice-ufrag:P4zc
+a=ice-pwd:csPgAlrKPimwh0PvFXewebw5
+a=ice-options:trickle
+a=fingerprint:sha-256 E9:35:2B:7B:58:CF:7E:3C:87:A7:BE:A9:01:F5:C6:D5:E6:DD:5C:B8:CE:82:73:F7:CD:A0:EF:63:4A:A1:B3:67
+a=setup:active
+a=mid:0
+a=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level
+a=extmap:9 urn:ietf:params:rtp-hdrext:sdes:mid
+a=sendonly
+a=msid:stream_id audio_label
+a=rtcp-mux
+a=rtpmap:111 opus/48000/2
+a=rtcp-fb:111 transport-cc
+a=fmtp:111 minptime=10;useinbandfec=1
+a=rtpmap:110 telephone-event/48000
+a=ssrc:241808077 cname:yq0NtbMl2z4UW8KA
+a=ssrc:241808077 msid:stream_id audio_label
+a=ssrc:241808077 mslabel:stream_id
+a=ssrc:241808077 label:audio_label
+m=video 9 UDP/TLS/RTP/SAVPF 127 121 123 119 114
+c=IN IP4 0.0.0.0
+a=rtcp:9 IN IP4 0.0.0.0
+a=ice-ufrag:P4zc
+a=ice-pwd:csPgAlrKPimwh0PvFXewebw5
+a=ice-options:trickle
+a=fingerprint:sha-256 E9:35:2B:7B:58:CF:7E:3C:87:A7:BE:A9:01:F5:C6:D5:E6:DD:5C:B8:CE:82:73:F7:CD:A0:EF:63:4A:A1:B3:67
+a=setup:active
+a=mid:1
+a=extmap:2 urn:ietf:params:rtp-hdrext:toffset
+a=extmap:3 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time
+a=extmap:4 urn:3gpp:video-orientation
+a=extmap:5 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01
+a=extmap:6 http://www.webrtc.org/experiments/rtp-hdrext/playout-delay
+a=extmap:7 http://www.webrtc.org/experiments/rtp-hdrext/video-content-type
+a=extmap:8 http://www.webrtc.org/experiments/rtp-hdrext/video-timing
+a=extmap:9 urn:ietf:params:rtp-hdrext:sdes:mid
+a=sendonly
+a=msid:stream_id video_label
+a=rtcp-mux
+a=rtcp-rsize
+a=rtpmap:127 H264/90000
+a=rtcp-fb:127 goog-remb
+a=rtcp-fb:127 transport-cc
+a=rtcp-fb:127 ccm fir
+a=rtcp-fb:127 nack
+a=rtcp-fb:127 nack pli
+a=fmtp:127 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42e033
+a=rtpmap:121 rtx/90000
+a=fmtp:121 apt=127
+a=rtpmap:123 red/90000
+a=rtpmap:119 rtx/90000
+a=fmtp:119 apt=123
+a=rtpmap:114 ulpfec/90000
+a=ssrc-group:FID 3276680763 1009537785
+a=ssrc:3276680763 cname:yq0NtbMl2z4UW8KA
+a=ssrc:3276680763 msid:stream_id video_label
+a=ssrc:3276680763 mslabel:stream_id
+a=ssrc:3276680763 label:video_label
+a=ssrc:1009537785 cname:yq0NtbMl2z4UW8KA
+a=ssrc:1009537785 msid:stream_id video_label
+a=ssrc:1009537785 mslabel:stream_id
+a=ssrc:1009537785 label:video_label
+m=application 9 DTLS/SCTP 5000
+c=IN IP4 0.0.0.0
+b=AS:30
+a=ice-ufrag:P4zc
+a=ice-pwd:csPgAlrKPimwh0PvFXewebw5
+a=ice-options:trickle
+a=fingerprint:sha-256 E9:35:2B:7B:58:CF:7E:3C:87:A7:BE:A9:01:F5:C6:D5:E6:DD:5C:B8:CE:82:73:F7:CD:A0:EF:63:4A:A1:B3:67
+a=setup:active
+a=mid:2
+a=sctpmap:5000 webrtc-datachannel 1024
+
+[2018.12.15-21.37.25:409]: LOG: LogDefault     : FClientSession::OnSignalingChange : ClientId=101, NewState=kStable
+[2018.12.15-21.37.25:412]: LOG: LogDefault     : FClientSession::OnIceConnectionChange : ClientId=101, NewState=kIceConnectionChecking
+[2018.12.15-21.37.25:415]: LOG: LogDefault     : FClientSession::OnIceGatheringChange : ClientId=101, NewState=kIceGatheringGathering
+[2018.12.15-21.37.25:415]: LOG: LogDefault     : FClientSession::OnIceCandidate : ClientId=101
+[2018.12.15-21.37.25:416]: LOG: LogDefault     : Sending ICE candidate to Client 101 (sdp_mline_index=0) : candidate:3484812266 1 udp 2122260223 192.168.2.48 57690 typ host generation 0 ufrag P4zc network-id 1
+[2018.12.15-21.37.25:417]: LOG: LogDefault     : FClientSession::OnIceGatheringChange : ClientId=101, NewState=kIceGatheringComplete
+[2018.12.15-21.37.25:435]: LOG: LogDefault     : FClientSession::OnIceConnectionChange : ClientId=101, NewState=kIceConnectionConnected
+[2018.12.15-21.37.25:443]: LOG: LogDefault     : FNetworkAudioCapturer::InitRecording
+[2018.12.15-21.37.25:444]: LOG: LogDefault     : FClientSession::OnDataChannel : ClientId=101
+[2018.12.15-21.37.25:455]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=101, Bitrate=20000 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.37.25:456]: LOG: LogDefault     : key-frame requested, size=1
+[2018.12.15-21.37.25:503]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=101, Bitrate=62455 kbps, framerate=65, lifted framerate=66
+[2018.12.15-21.37.25:553]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=101, Bitrate=100000 kbps, framerate=63, lifted framerate=64
+[2018.12.15-21.37.25:555]: LOG: LogDefault     : FUE4Connection::SetRate : BitrateKbps is 100000 . Clamping to 65535.
+[2018.12.15-21.37.25:954]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=101, Bitrate=100000 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.37.25:956]: LOG: LogDefault     : FUE4Connection::SetRate : BitrateKbps is 100000 . Clamping to 65535.
+[2018.12.15-21.37.26:572]: LOG: LogDefault     : FVideoEncoder::SetQualityControlOwnership : ClientId=101, Ownership=false
+[2018.12.15-21.37.26:575]: LOG: LogDefault     : FVideoEncoder::SetQualityControlOwnership : ClientId=101, Ownership=true
+[2018.12.15-21.37.26:587]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=101, Bitrate=100000 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.37.26:588]: LOG: LogDefault     : FUE4Connection::SetRate : BitrateKbps is 100000 . Clamping to 65535.
+[2018.12.15-21.41.20:298]: LOG: LogDefault     : FClientSession::OnIceConnectionChange : ClientId=101, NewState=kIceConnectionDisconnected
+[2018.12.15-21.41.35:784]: LOG: LogDefault     : FClientSession::OnIceConnectionChange : ClientId=101, NewState=kIceConnectionFailed
+[2018.12.15-21.42.08:609]: WRN: LogDefault     : Disconnected from UE4, error 10053. Reconnecting...
+[2018.12.15-21.42.08:611]: LOG: LogDefault     : FClientSession::~FClientSession: ClientId=101
+[2018.12.15-21.42.15:644]: LOG: LogDefault     : Connected to UE4
+[2018.12.15-21.42.15:646]: LOG: LogDefault     : Connecting to Cirrus 127.0.0.1:8888
+[2018.12.15-21.42.15:647]: LOG: LogDefault     : Connected to Cirrus
+[2018.12.15-21.43.40:712]: WRN: LogDefault     : Disconnected from Cirrus, error 10053. Reconnecting...
+[2018.12.15-21.43.40:715]: LOG: LogDefault     : Cirrus disconnected. Removing all clients
+[2018.12.15-21.44.04:768]: LOG: LogDefault     : Connected to Cirrus
+[2018.12.15-21.44.04:770]: LOG: LogDefault     : Cirrus config : {
+   "peerConnectionConfig" : {}
+}
+
+[2018.12.15-21.44.31:782]: LOG: LogDefault     : FClientSession::FClientSession: ClientId=101
+[2018.12.15-21.44.31:783]: LOG: LogDefault     : FClientSession::OnRenegotiationNeeded : ClientId=101
+[2018.12.15-21.44.31:784]: LOG: LogDefault     : FClientSession::OnRenegotiationNeeded : ClientId=101
+[2018.12.15-21.44.31:784]: LOG: LogDefault     : Received offer from client 101 : v=0
+o=- 8106915078610153444 2 IN IP4 127.0.0.1
+s=-
+t=0 0
+a=group:BUNDLE 0 1 2
+a=msid-semantic: WMS
+m=audio 9 UDP/TLS/RTP/SAVPF 111 103 104 9 0 8 106 105 13 110 112 113 126
+c=IN IP4 0.0.0.0
+a=rtcp:9 IN IP4 0.0.0.0
+a=ice-ufrag:4GzI
+a=ice-pwd:yRxj0Ba1N/+KLCTOixBofWCh
+a=ice-options:trickle
+a=fingerprint:sha-256 05:A0:13:5E:AF:9C:21:A4:B9:EF:42:D4:37:30:DA:57:48:8C:7E:2B:99:F6:86:5E:E0:9E:36:9E:A0:61:75:05
+a=setup:actpass
+a=mid:0
+a=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level
+a=extmap:9 urn:ietf:params:rtp-hdrext:sdes:mid
+a=recvonly
+a=rtcp-mux
+a=rtpmap:111 opus/48000/2
+a=rtcp-fb:111 transport-cc
+a=fmtp:111 minptime=10;useinbandfec=1
+a=rtpmap:103 ISAC/16000
+a=rtpmap:104 ISAC/32000
+a=rtpmap:9 G722/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:8 PCMA/8000
+a=rtpmap:106 CN/32000
+a=rtpmap:105 CN/16000
+a=rtpmap:13 CN/8000
+a=rtpmap:110 telephone-event/48000
+a=rtpmap:112 telephone-event/32000
+a=rtpmap:113 telephone-event/16000
+a=rtpmap:126 telephone-event/8000
+m=video 9 UDP/TLS/RTP/SAVPF 96 97 98 99 100 101 102 122 127 121 125 107 108 109 124 120 123 119 114
+c=IN IP4 0.0.0.0
+a=rtcp:9 IN IP4 0.0.0.0
+a=ice-ufrag:4GzI
+a=ice-pwd:yRxj0Ba1N/+KLCTOixBofWCh
+a=ice-options:trickle
+a=fingerprint:sha-256 05:A0:13:5E:AF:9C:21:A4:B9:EF:42:D4:37:30:DA:57:48:8C:7E:2B:99:F6:86:5E:E0:9E:36:9E:A0:61:75:05
+a=setup:actpass
+a=mid:1
+a=extmap:2 urn:ietf:params:rtp-hdrext:toffset
+a=extmap:3 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time
+a=extmap:4 urn:3gpp:video-orientation
+a=extmap:5 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01
+a=extmap:6 http://www.webrtc.org/experiments/rtp-hdrext/playout-delay
+a=extmap:7 http://www.webrtc.org/experiments/rtp-hdrext/video-content-type
+a=extmap:8 http://www.webrtc.org/experiments/rtp-hdrext/video-timing
+a=extmap:9 urn:ietf:params:rtp-hdrext:sdes:mid
+a=recvonly
+a=rtcp-mux
+a=rtcp-rsize
+a=rtpmap:96 VP8/90000
+a=rtcp-fb:96 goog-remb
+a=rtcp-fb:96 transport-cc
+a=rtcp-fb:96 ccm fir
+a=rtcp-fb:96 nack
+a=rtcp-fb:96 nack pli
+a=rtpmap:97 rtx/90000
+a=fmtp:97 apt=96
+a=rtpmap:98 VP9/90000
+a=rtcp-fb:98 goog-remb
+a=rtcp-fb:98 transport-cc
+a=rtcp-fb:98 ccm fir
+a=rtcp-fb:98 nack
+a=rtcp-fb:98 nack pli
+a=fmtp:98 x-google-profile-id=0
+a=rtpmap:99 rtx/90000
+a=fmtp:99 apt=98
+a=rtpmap:100 H264/90000
+a=rtcp-fb:100 goog-remb
+a=rtcp-fb:100 transport-cc
+a=rtcp-fb:100 ccm fir
+a=rtcp-fb:100 nack
+a=rtcp-fb:100 nack pli
+a=fmtp:100 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42001f;x-google-start-bitrate=20000;x-google-max-bitrate=100000
+a=rtpmap:101 rtx/90000
+a=fmtp:101 apt=100
+a=rtpmap:102 H264/90000
+a=rtcp-fb:102 goog-remb
+a=rtcp-fb:102 transport-cc
+a=rtcp-fb:102 ccm fir
+a=rtcp-fb:102 nack
+a=rtcp-fb:102 nack pli
+a=fmtp:102 level-asymmetry-allowed=1;packetization-mode=0;profile-level-id=42001f;x-google-start-bitrate=20000;x-google-max-bitrate=100000
+a=rtpmap:122 rtx/90000
+a=fmtp:122 apt=102
+a=rtpmap:127 H264/90000
+a=rtcp-fb:127 goog-remb
+a=rtcp-fb:127 transport-cc
+a=rtcp-fb:127 ccm fir
+a=rtcp-fb:127 nack
+a=rtcp-fb:127 nack pli
+a=fmtp:127 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42e01f;x-google-start-bitrate=20000;x-google-max-bitrate=100000
+a=rtpmap:121 rtx/90000
+a=fmtp:121 apt=127
+a=rtpmap:125 H264/90000
+a=rtcp-fb:125 goog-remb
+a=rtcp-fb:125 transport-cc
+a=rtcp-fb:125 ccm fir
+a=rtcp-fb:125 nack
+a=rtcp-fb:125 nack pli
+a=fmtp:125 level-asymmetry-allowed=1;packetization-mode=0;profile-level-id=42e01f;x-google-start-bitrate=20000;x-google-max-bitrate=100000
+a=rtpmap:107 rtx/90000
+a=fmtp:107 apt=125
+a=rtpmap:108 H264/90000
+a=rtcp-fb:108 goog-remb
+a=rtcp-fb:108 transport-cc
+a=rtcp-fb:108 ccm fir
+a=rtcp-fb:108 nack
+a=rtcp-fb:108 nack pli
+a=fmtp:108 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=4d0032;x-google-start-bitrate=20000;x-google-max-bitrate=100000
+a=rtpmap:109 rtx/90000
+a=fmtp:109 apt=108
+a=rtpmap:124 H264/90000
+a=rtcp-fb:124 goog-remb
+a=rtcp-fb:124 transport-cc
+a=rtcp-fb:124 ccm fir
+a=rtcp-fb:124 nack
+a=rtcp-fb:124 nack pli
+a=fmtp:124 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=640032;x-google-start-bitrate=20000;x-google-max-bitrate=100000
+a=rtpmap:120 rtx/90000
+a=fmtp:120 apt=124
+a=rtpmap:123 red/90000
+a=rtpmap:119 rtx/90000
+a=fmtp:119 apt=123
+a=rtpmap:114 ulpfec/90000
+m=application 9 DTLS/SCTP 5000
+c=IN IP4 0.0.0.0
+a=ice-ufrag:4GzI
+a=ice-pwd:yRxj0Ba1N/+KLCTOixBofWCh
+a=ice-options:trickle
+a=fingerprint:sha-256 05:A0:13:5E:AF:9C:21:A4:B9:EF:42:D4:37:30:DA:57:48:8C:7E:2B:99:F6:86:5E:E0:9E:36:9E:A0:61:75:05
+a=setup:actpass
+a=mid:2
+a=sctpmap:5000 webrtc-datachannel 1024
+
+[2018.12.15-21.44.31:786]: LOG: LogDefault     : FClientSession::OnSignalingChange : ClientId=101, NewState=kHaveRemoteOffer
+[2018.12.15-21.44.31:787]: LOG: LogDefault     : Received ICE candidate from Client 101 : {"candidate":"candidate:1300247330 1 udp 2113937151 192.168.2.14 49158 typ host generation 0 ufrag 4GzI network-cost 999","sdpMid":"0","sdpMLineIndex":0,"usernameFragment":"4GzI"}
+[2018.12.15-21.44.31:788]: LOG: LogDefault     : Received ICE candidate from Client 101 : {"candidate":"candidate:1300247330 1 udp 2113937151 192.168.2.14 51247 typ host generation 0 ufrag 4GzI network-cost 999","sdpMid":"1","sdpMLineIndex":1,"usernameFragment":"4GzI"}
+[2018.12.15-21.44.31:788]: LOG: LogDefault     : Received ICE candidate from Client 101 : {"candidate":"candidate:1300247330 1 udp 2113937151 192.168.2.14 62479 typ host generation 0 ufrag 4GzI network-cost 999","sdpMid":"2","sdpMLineIndex":2,"usernameFragment":"4GzI"}
+[2018.12.15-21.44.31:789]: LOG: LogDefault     : Answer for client 101 : v=0
+o=- 5737451919747383449 2 IN IP4 127.0.0.1
+s=-
+t=0 0
+a=group:BUNDLE 0 1 2
+a=msid-semantic: WMS stream_id
+m=audio 9 UDP/TLS/RTP/SAVPF 111 110
+c=IN IP4 0.0.0.0
+a=rtcp:9 IN IP4 0.0.0.0
+a=ice-ufrag:3crt
+a=ice-pwd:l3QpN71aNEkpuVzrb4ERj2cO
+a=ice-options:trickle
+a=fingerprint:sha-256 F5:40:A9:C8:D8:AA:94:0E:13:C5:9D:02:82:A6:37:D3:DF:2C:88:FB:07:CB:66:48:0F:5E:DF:99:5F:52:F4:00
+a=setup:active
+a=mid:0
+a=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level
+a=extmap:9 urn:ietf:params:rtp-hdrext:sdes:mid
+a=sendonly
+a=msid:stream_id audio_label
+a=rtcp-mux
+a=rtpmap:111 opus/48000/2
+a=rtcp-fb:111 transport-cc
+a=fmtp:111 minptime=10;useinbandfec=1
+a=rtpmap:110 telephone-event/48000
+a=ssrc:2969938756 cname:t5qlX1lQ4aU/gZYU
+a=ssrc:2969938756 msid:stream_id audio_label
+a=ssrc:2969938756 mslabel:stream_id
+a=ssrc:2969938756 label:audio_label
+m=video 9 UDP/TLS/RTP/SAVPF 127 121 123 119 114
+c=IN IP4 0.0.0.0
+a=rtcp:9 IN IP4 0.0.0.0
+a=ice-ufrag:3crt
+a=ice-pwd:l3QpN71aNEkpuVzrb4ERj2cO
+a=ice-options:trickle
+a=fingerprint:sha-256 F5:40:A9:C8:D8:AA:94:0E:13:C5:9D:02:82:A6:37:D3:DF:2C:88:FB:07:CB:66:48:0F:5E:DF:99:5F:52:F4:00
+a=setup:active
+a=mid:1
+a=extmap:2 urn:ietf:params:rtp-hdrext:toffset
+a=extmap:3 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time
+a=extmap:4 urn:3gpp:video-orientation
+a=extmap:5 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01
+a=extmap:6 http://www.webrtc.org/experiments/rtp-hdrext/playout-delay
+a=extmap:7 http://www.webrtc.org/experiments/rtp-hdrext/video-content-type
+a=extmap:8 http://www.webrtc.org/experiments/rtp-hdrext/video-timing
+a=extmap:9 urn:ietf:params:rtp-hdrext:sdes:mid
+a=sendonly
+a=msid:stream_id video_label
+a=rtcp-mux
+a=rtcp-rsize
+a=rtpmap:127 H264/90000
+a=rtcp-fb:127 goog-remb
+a=rtcp-fb:127 transport-cc
+a=rtcp-fb:127 ccm fir
+a=rtcp-fb:127 nack
+a=rtcp-fb:127 nack pli
+a=fmtp:127 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42e033
+a=rtpmap:121 rtx/90000
+a=fmtp:121 apt=127
+a=rtpmap:123 red/90000
+a=rtpmap:119 rtx/90000
+a=fmtp:119 apt=123
+a=rtpmap:114 ulpfec/90000
+a=ssrc-group:FID 2251211192 2625591209
+a=ssrc:2251211192 cname:t5qlX1lQ4aU/gZYU
+a=ssrc:2251211192 msid:stream_id video_label
+a=ssrc:2251211192 mslabel:stream_id
+a=ssrc:2251211192 label:video_label
+a=ssrc:2625591209 cname:t5qlX1lQ4aU/gZYU
+a=ssrc:2625591209 msid:stream_id video_label
+a=ssrc:2625591209 mslabel:stream_id
+a=ssrc:2625591209 label:video_label
+m=application 9 DTLS/SCTP 5000
+c=IN IP4 0.0.0.0
+b=AS:30
+a=ice-ufrag:3crt
+a=ice-pwd:l3QpN71aNEkpuVzrb4ERj2cO
+a=ice-options:trickle
+a=fingerprint:sha-256 F5:40:A9:C8:D8:AA:94:0E:13:C5:9D:02:82:A6:37:D3:DF:2C:88:FB:07:CB:66:48:0F:5E:DF:99:5F:52:F4:00
+a=setup:active
+a=mid:2
+a=sctpmap:5000 webrtc-datachannel 1024
+
+[2018.12.15-21.44.31:789]: LOG: LogDefault     : FClientSession::OnSignalingChange : ClientId=101, NewState=kStable
+[2018.12.15-21.44.31:790]: LOG: LogDefault     : FClientSession::OnIceConnectionChange : ClientId=101, NewState=kIceConnectionChecking
+[2018.12.15-21.44.31:792]: LOG: LogDefault     : FClientSession::OnIceGatheringChange : ClientId=101, NewState=kIceGatheringGathering
+[2018.12.15-21.44.31:794]: LOG: LogDefault     : FClientSession::OnIceCandidate : ClientId=101
+[2018.12.15-21.44.31:794]: LOG: LogDefault     : Sending ICE candidate to Client 101 (sdp_mline_index=0) : candidate:3484812266 1 udp 2122260223 192.168.2.48 52514 typ host generation 0 ufrag 3crt network-id 1
+[2018.12.15-21.44.31:797]: LOG: LogDefault     : FClientSession::OnIceGatheringChange : ClientId=101, NewState=kIceGatheringComplete
+[2018.12.15-21.44.31:813]: LOG: LogDefault     : FClientSession::OnIceConnectionChange : ClientId=101, NewState=kIceConnectionConnected
+[2018.12.15-21.44.31:819]: LOG: LogDefault     : FClientSession::OnDataChannel : ClientId=101
+[2018.12.15-21.44.31:832]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=101, Bitrate=20000 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.44.31:918]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=101, Bitrate=90002 kbps, framerate=90, lifted framerate=91
+[2018.12.15-21.44.31:919]: LOG: LogDefault     : FUE4Connection::SetRate : BitrateKbps is 90002 . Clamping to 65535.
+[2018.12.15-21.44.31:969]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=101, Bitrate=90003 kbps, framerate=77, lifted framerate=78
+[2018.12.15-21.44.31:970]: LOG: LogDefault     : FUE4Connection::SetRate : BitrateKbps is 90003 . Clamping to 65535.
+[2018.12.15-21.44.32:018]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=101, Bitrate=63189 kbps, framerate=71, lifted framerate=72
+[2018.12.15-21.44.32:084]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=101, Bitrate=85912 kbps, framerate=68, lifted framerate=69
+[2018.12.15-21.44.32:085]: LOG: LogDefault     : FUE4Connection::SetRate : BitrateKbps is 85912 . Clamping to 65535.
+[2018.12.15-21.44.32:134]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=101, Bitrate=85979 kbps, framerate=67, lifted framerate=68
+[2018.12.15-21.44.32:135]: LOG: LogDefault     : FUE4Connection::SetRate : BitrateKbps is 85979 . Clamping to 65535.
+[2018.12.15-21.44.32:184]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=101, Bitrate=87805 kbps, framerate=66, lifted framerate=67
+[2018.12.15-21.44.32:185]: LOG: LogDefault     : FUE4Connection::SetRate : BitrateKbps is 87805 . Clamping to 65535.
+[2018.12.15-21.44.32:234]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=101, Bitrate=88957 kbps, framerate=65, lifted framerate=66
+[2018.12.15-21.44.32:235]: LOG: LogDefault     : FUE4Connection::SetRate : BitrateKbps is 88957 . Clamping to 65535.
+[2018.12.15-21.44.32:251]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=101, Bitrate=89515 kbps, framerate=65, lifted framerate=66
+[2018.12.15-21.44.32:251]: LOG: LogDefault     : FUE4Connection::SetRate : BitrateKbps is 89515 . Clamping to 65535.
+[2018.12.15-21.44.32:318]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=101, Bitrate=90377 kbps, framerate=64, lifted framerate=65
+[2018.12.15-21.44.32:319]: LOG: LogDefault     : FUE4Connection::SetRate : BitrateKbps is 90377 . Clamping to 65535.
+[2018.12.15-21.44.32:335]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=101, Bitrate=90500 kbps, framerate=64, lifted framerate=65
+[2018.12.15-21.44.32:335]: LOG: LogDefault     : FUE4Connection::SetRate : BitrateKbps is 90500 . Clamping to 65535.
+[2018.12.15-21.44.32:834]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=101, Bitrate=90500 kbps, framerate=62, lifted framerate=63
+[2018.12.15-21.44.32:835]: LOG: LogDefault     : FUE4Connection::SetRate : BitrateKbps is 90500 . Clamping to 65535.
+[2018.12.15-21.44.33:251]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=101, Bitrate=91756 kbps, framerate=61, lifted framerate=62
+[2018.12.15-21.44.33:252]: LOG: LogDefault     : FUE4Connection::SetRate : BitrateKbps is 91756 . Clamping to 65535.
+[2018.12.15-21.44.33:764]: LOG: LogDefault     : FVideoEncoder::SetQualityControlOwnership : ClientId=101, Ownership=false
+[2018.12.15-21.44.33:765]: LOG: LogDefault     : FVideoEncoder::SetQualityControlOwnership : ClientId=101, Ownership=true
+[2018.12.15-21.44.33:768]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=101, Bitrate=91727 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.44.33:769]: LOG: LogDefault     : FUE4Connection::SetRate : BitrateKbps is 91727 . Clamping to 65535.
+[2018.12.15-21.44.34:968]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=101, Bitrate=92217 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.44.34:969]: LOG: LogDefault     : FUE4Connection::SetRate : BitrateKbps is 92217 . Clamping to 65535.
+[2018.12.15-21.44.35:685]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=101, Bitrate=92429 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.44.35:686]: LOG: LogDefault     : FUE4Connection::SetRate : BitrateKbps is 92429 . Clamping to 65535.
+[2018.12.15-21.44.36:751]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=101, Bitrate=91508 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.44.36:752]: LOG: LogDefault     : FUE4Connection::SetRate : BitrateKbps is 91508 . Clamping to 65535.
+[2018.12.15-21.44.38:519]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=101, Bitrate=92030 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.44.38:520]: LOG: LogDefault     : FUE4Connection::SetRate : BitrateKbps is 92030 . Clamping to 65535.
+[2018.12.15-21.44.40:702]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=101, Bitrate=91985 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.44.40:703]: LOG: LogDefault     : FUE4Connection::SetRate : BitrateKbps is 91985 . Clamping to 65535.
+[2018.12.15-21.44.41:586]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=101, Bitrate=92401 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.44.41:587]: LOG: LogDefault     : FUE4Connection::SetRate : BitrateKbps is 92401 . Clamping to 65535.
+[2018.12.15-21.44.43:968]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=101, Bitrate=91581 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.44.43:969]: LOG: LogDefault     : FUE4Connection::SetRate : BitrateKbps is 91581 . Clamping to 65535.
+[2018.12.15-21.44.44:818]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=101, Bitrate=91187 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.44.44:819]: LOG: LogDefault     : FUE4Connection::SetRate : BitrateKbps is 91187 . Clamping to 65535.
+[2018.12.15-21.44.45:357]: LOG: LogDefault     : FClientSession::FClientSession: ClientId=102
+[2018.12.15-21.44.45:359]: LOG: LogDefault     : FClientSession::OnRenegotiationNeeded : ClientId=102
+[2018.12.15-21.44.45:360]: LOG: LogDefault     : FClientSession::OnRenegotiationNeeded : ClientId=102
+[2018.12.15-21.44.45:360]: LOG: LogDefault     : Received offer from client 102 : v=0
+o=- 5019391877413254829 2 IN IP4 127.0.0.1
+s=-
+t=0 0
+a=group:BUNDLE 0 1 2
+a=msid-semantic: WMS
+m=audio 9 UDP/TLS/RTP/SAVPF 111 103 104 9 0 8 106 105 13 110 112 113 126
+c=IN IP4 0.0.0.0
+a=rtcp:9 IN IP4 0.0.0.0
+a=ice-ufrag:APc5
+a=ice-pwd:weBtqL7PA3k2AEVDpoDm7ngz
+a=ice-options:trickle
+a=fingerprint:sha-256 B3:40:2E:E5:68:CC:59:20:2B:47:48:69:12:34:12:12:23:41:48:B6:64:5D:7A:D2:1D:65:37:4F:F8:6D:9E:9E
+a=setup:actpass
+a=mid:0
+a=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level
+a=extmap:9 urn:ietf:params:rtp-hdrext:sdes:mid
+a=recvonly
+a=rtcp-mux
+a=rtpmap:111 opus/48000/2
+a=rtcp-fb:111 transport-cc
+a=fmtp:111 minptime=10;useinbandfec=1
+a=rtpmap:103 ISAC/16000
+a=rtpmap:104 ISAC/32000
+a=rtpmap:9 G722/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:8 PCMA/8000
+a=rtpmap:106 CN/32000
+a=rtpmap:105 CN/16000
+a=rtpmap:13 CN/8000
+a=rtpmap:110 telephone-event/48000
+a=rtpmap:112 telephone-event/32000
+a=rtpmap:113 telephone-event/16000
+a=rtpmap:126 telephone-event/8000
+m=video 9 UDP/TLS/RTP/SAVPF 96 97 98 99 100 101 102 122 127 121 125 107 108 109 124 120 123 119 114
+c=IN IP4 0.0.0.0
+a=rtcp:9 IN IP4 0.0.0.0
+a=ice-ufrag:APc5
+a=ice-pwd:weBtqL7PA3k2AEVDpoDm7ngz
+a=ice-options:trickle
+a=fingerprint:sha-256 B3:40:2E:E5:68:CC:59:20:2B:47:48:69:12:34:12:12:23:41:48:B6:64:5D:7A:D2:1D:65:37:4F:F8:6D:9E:9E
+a=setup:actpass
+a=mid:1
+a=extmap:2 urn:ietf:params:rtp-hdrext:toffset
+a=extmap:3 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time
+a=extmap:4 urn:3gpp:video-orientation
+a=extmap:5 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01
+a=extmap:6 http://www.webrtc.org/experiments/rtp-hdrext/playout-delay
+a=extmap:7 http://www.webrtc.org/experiments/rtp-hdrext/video-content-type
+a=extmap:8 http://www.webrtc.org/experiments/rtp-hdrext/video-timing
+a=extmap:9 urn:ietf:params:rtp-hdrext:sdes:mid
+a=recvonly
+a=rtcp-mux
+a=rtcp-rsize
+a=rtpmap:96 VP8/90000
+a=rtcp-fb:96 goog-remb
+a=rtcp-fb:96 transport-cc
+a=rtcp-fb:96 ccm fir
+a=rtcp-fb:96 nack
+a=rtcp-fb:96 nack pli
+a=rtpmap:97 rtx/90000
+a=fmtp:97 apt=96
+a=rtpmap:98 VP9/90000
+a=rtcp-fb:98 goog-remb
+a=rtcp-fb:98 transport-cc
+a=rtcp-fb:98 ccm fir
+a=rtcp-fb:98 nack
+a=rtcp-fb:98 nack pli
+a=fmtp:98 x-google-profile-id=0
+a=rtpmap:99 rtx/90000
+a=fmtp:99 apt=98
+a=rtpmap:100 H264/90000
+a=rtcp-fb:100 goog-remb
+a=rtcp-fb:100 transport-cc
+a=rtcp-fb:100 ccm fir
+a=rtcp-fb:100 nack
+a=rtcp-fb:100 nack pli
+a=fmtp:100 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42001f;x-google-start-bitrate=20000;x-google-max-bitrate=100000
+a=rtpmap:101 rtx/90000
+a=fmtp:101 apt=100
+a=rtpmap:102 H264/90000
+a=rtcp-fb:102 goog-remb
+a=rtcp-fb:102 transport-cc
+a=rtcp-fb:102 ccm fir
+a=rtcp-fb:102 nack
+a=rtcp-fb:102 nack pli
+a=fmtp:102 level-asymmetry-allowed=1;packetization-mode=0;profile-level-id=42001f;x-google-start-bitrate=20000;x-google-max-bitrate=100000
+a=rtpmap:122 rtx/90000
+a=fmtp:122 apt=102
+a=rtpmap:127 H264/90000
+a=rtcp-fb:127 goog-remb
+a=rtcp-fb:127 transport-cc
+a=rtcp-fb:127 ccm fir
+a=rtcp-fb:127 nack
+a=rtcp-fb:127 nack pli
+a=fmtp:127 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42e01f;x-google-start-bitrate=20000;x-google-max-bitrate=100000
+a=rtpmap:121 rtx/90000
+a=fmtp:121 apt=127
+a=rtpmap:125 H264/90000
+a=rtcp-fb:125 goog-remb
+a=rtcp-fb:125 transport-cc
+a=rtcp-fb:125 ccm fir
+a=rtcp-fb:125 nack
+a=rtcp-fb:125 nack pli
+a=fmtp:125 level-asymmetry-allowed=1;packetization-mode=0;profile-level-id=42e01f;x-google-start-bitrate=20000;x-google-max-bitrate=100000
+a=rtpmap:107 rtx/90000
+a=fmtp:107 apt=125
+a=rtpmap:108 H264/90000
+a=rtcp-fb:108 goog-remb
+a=rtcp-fb:108 transport-cc
+a=rtcp-fb:108 ccm fir
+a=rtcp-fb:108 nack
+a=rtcp-fb:108 nack pli
+a=fmtp:108 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=4d0032;x-google-start-bitrate=20000;x-google-max-bitrate=100000
+a=rtpmap:109 rtx/90000
+a=fmtp:109 apt=108
+a=rtpmap:124 H264/90000
+a=rtcp-fb:124 goog-remb
+a=rtcp-fb:124 transport-cc
+a=rtcp-fb:124 ccm fir
+a=rtcp-fb:124 nack
+a=rtcp-fb:124 nack pli
+a=fmtp:124 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=640032;x-google-start-bitrate=20000;x-google-max-bitrate=100000
+a=rtpmap:120 rtx/90000
+a=fmtp:120 apt=124
+a=rtpmap:123 red/90000
+a=rtpmap:119 rtx/90000
+a=fmtp:119 apt=123
+a=rtpmap:114 ulpfec/90000
+m=application 9 DTLS/SCTP 5000
+c=IN IP4 0.0.0.0
+a=ice-ufrag:APc5
+a=ice-pwd:weBtqL7PA3k2AEVDpoDm7ngz
+a=ice-options:trickle
+a=fingerprint:sha-256 B3:40:2E:E5:68:CC:59:20:2B:47:48:69:12:34:12:12:23:41:48:B6:64:5D:7A:D2:1D:65:37:4F:F8:6D:9E:9E
+a=setup:actpass
+a=mid:2
+a=sctpmap:5000 webrtc-datachannel 1024
+
+[2018.12.15-21.44.45:362]: LOG: LogDefault     : FClientSession::OnSignalingChange : ClientId=102, NewState=kHaveRemoteOffer
+[2018.12.15-21.44.45:363]: LOG: LogDefault     : Received ICE candidate from Client 102 : {"candidate":"candidate:3484812266 1 udp 2113937151 192.168.2.48 55302 typ host generation 0 ufrag APc5 network-cost 999","sdpMid":"0","sdpMLineIndex":0,"usernameFragment":"APc5"}
+[2018.12.15-21.44.45:364]: LOG: LogDefault     : Received ICE candidate from Client 102 : {"candidate":"candidate:3484812266 1 udp 2113937151 192.168.2.48 55304 typ host generation 0 ufrag APc5 network-cost 999","sdpMid":"1","sdpMLineIndex":1,"usernameFragment":"APc5"}
+[2018.12.15-21.44.45:364]: LOG: LogDefault     : Received ICE candidate from Client 102 : {"candidate":"candidate:3484812266 1 udp 2113937151 192.168.2.48 55306 typ host generation 0 ufrag APc5 network-cost 999","sdpMid":"2","sdpMLineIndex":2,"usernameFragment":"APc5"}
+[2018.12.15-21.44.45:365]: LOG: LogDefault     : Answer for client 102 : v=0
+o=- 1595076636970015126 2 IN IP4 127.0.0.1
+s=-
+t=0 0
+a=group:BUNDLE 0 1 2
+a=msid-semantic: WMS stream_id
+m=audio 9 UDP/TLS/RTP/SAVPF 111 110
+c=IN IP4 0.0.0.0
+a=rtcp:9 IN IP4 0.0.0.0
+a=ice-ufrag:3qyD
+a=ice-pwd:kT46Q0QtxtDmzeX+v033wzZ3
+a=ice-options:trickle
+a=fingerprint:sha-256 60:A4:8D:5B:28:CF:45:70:E6:C3:80:21:9A:D4:BD:50:4C:8C:3E:79:9E:D9:8A:D9:CC:D6:0F:A8:67:C0:EA:74
+a=setup:active
+a=mid:0
+a=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level
+a=extmap:9 urn:ietf:params:rtp-hdrext:sdes:mid
+a=sendonly
+a=msid:stream_id audio_label
+a=rtcp-mux
+a=rtpmap:111 opus/48000/2
+a=rtcp-fb:111 transport-cc
+a=fmtp:111 minptime=10;useinbandfec=1
+a=rtpmap:110 telephone-event/48000
+a=ssrc:2075189608 cname:Usf1WjpXk/ZR8Ndg
+a=ssrc:2075189608 msid:stream_id audio_label
+a=ssrc:2075189608 mslabel:stream_id
+a=ssrc:2075189608 label:audio_label
+m=video 9 UDP/TLS/RTP/SAVPF 127 121 123 119 114
+c=IN IP4 0.0.0.0
+a=rtcp:9 IN IP4 0.0.0.0
+a=ice-ufrag:3qyD
+a=ice-pwd:kT46Q0QtxtDmzeX+v033wzZ3
+a=ice-options:trickle
+a=fingerprint:sha-256 60:A4:8D:5B:28:CF:45:70:E6:C3:80:21:9A:D4:BD:50:4C:8C:3E:79:9E:D9:8A:D9:CC:D6:0F:A8:67:C0:EA:74
+a=setup:active
+a=mid:1
+a=extmap:2 urn:ietf:params:rtp-hdrext:toffset
+a=extmap:3 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time
+a=extmap:4 urn:3gpp:video-orientation
+a=extmap:5 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01
+a=extmap:6 http://www.webrtc.org/experiments/rtp-hdrext/playout-delay
+a=extmap:7 http://www.webrtc.org/experiments/rtp-hdrext/video-content-type
+a=extmap:8 http://www.webrtc.org/experiments/rtp-hdrext/video-timing
+a=extmap:9 urn:ietf:params:rtp-hdrext:sdes:mid
+a=sendonly
+a=msid:stream_id video_label
+a=rtcp-mux
+a=rtcp-rsize
+a=rtpmap:127 H264/90000
+a=rtcp-fb:127 goog-remb
+a=rtcp-fb:127 transport-cc
+a=rtcp-fb:127 ccm fir
+a=rtcp-fb:127 nack
+a=rtcp-fb:127 nack pli
+a=fmtp:127 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42e033
+a=rtpmap:121 rtx/90000
+a=fmtp:121 apt=127
+a=rtpmap:123 red/90000
+a=rtpmap:119 rtx/90000
+a=fmtp:119 apt=123
+a=rtpmap:114 ulpfec/90000
+a=ssrc-group:FID 1969339096 600033193
+a=ssrc:1969339096 cname:Usf1WjpXk/ZR8Ndg
+a=ssrc:1969339096 msid:stream_id video_label
+a=ssrc:1969339096 mslabel:stream_id
+a=ssrc:1969339096 label:video_label
+a=ssrc:600033193 cname:Usf1WjpXk/ZR8Ndg
+a=ssrc:600033193 msid:stream_id video_label
+a=ssrc:600033193 mslabel:stream_id
+a=ssrc:600033193 label:video_label
+m=application 9 DTLS/SCTP 5000
+c=IN IP4 0.0.0.0
+b=AS:30
+a=ice-ufrag:3qyD
+a=ice-pwd:kT46Q0QtxtDmzeX+v033wzZ3
+a=ice-options:trickle
+a=fingerprint:sha-256 60:A4:8D:5B:28:CF:45:70:E6:C3:80:21:9A:D4:BD:50:4C:8C:3E:79:9E:D9:8A:D9:CC:D6:0F:A8:67:C0:EA:74
+a=setup:active
+a=mid:2
+a=sctpmap:5000 webrtc-datachannel 1024
+
+[2018.12.15-21.44.45:367]: LOG: LogDefault     : FClientSession::OnSignalingChange : ClientId=102, NewState=kStable
+[2018.12.15-21.44.45:373]: LOG: LogDefault     : FClientSession::OnIceConnectionChange : ClientId=102, NewState=kIceConnectionChecking
+[2018.12.15-21.44.45:375]: LOG: LogDefault     : FClientSession::OnIceGatheringChange : ClientId=102, NewState=kIceGatheringGathering
+[2018.12.15-21.44.45:375]: LOG: LogDefault     : FClientSession::OnIceCandidate : ClientId=102
+[2018.12.15-21.44.45:376]: LOG: LogDefault     : Sending ICE candidate to Client 102 (sdp_mline_index=0) : candidate:3484812266 1 udp 2122260223 192.168.2.48 55308 typ host generation 0 ufrag 3qyD network-id 1
+[2018.12.15-21.44.45:376]: LOG: LogDefault     : FClientSession::OnIceGatheringChange : ClientId=102, NewState=kIceGatheringComplete
+[2018.12.15-21.44.45:388]: LOG: LogDefault     : FClientSession::OnIceConnectionChange : ClientId=102, NewState=kIceConnectionConnected
+[2018.12.15-21.44.45:390]: LOG: LogDefault     : FClientSession::OnDataChannel : ClientId=102
+[2018.12.15-21.44.45:401]: LOG: LogDefault     : key-frame requested, size=1
+[2018.12.15-21.44.45:435]: LOG: LogDefault     : key-frame requested, size=1
+[2018.12.15-21.44.45:801]: LOG: LogDefault     : key-frame requested, size=1
+[2018.12.15-21.44.45:918]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=101, Bitrate=91818 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.44.45:919]: LOG: LogDefault     : FUE4Connection::SetRate : BitrateKbps is 91818 . Clamping to 65535.
+[2018.12.15-21.44.46:669]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=101, Bitrate=91938 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.44.46:670]: LOG: LogDefault     : FUE4Connection::SetRate : BitrateKbps is 91938 . Clamping to 65535.
+[2018.12.15-21.44.46:780]: LOG: LogDefault     : FVideoEncoder::SetQualityControlOwnership : ClientId=101, Ownership=false
+[2018.12.15-21.44.46:781]: LOG: LogDefault     : FVideoEncoder::SetQualityControlOwnership : ClientId=102, Ownership=true
+[2018.12.15-21.44.46:785]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=102, Bitrate=100000 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.44.46:785]: LOG: LogDefault     : FUE4Connection::SetRate : BitrateKbps is 100000 . Clamping to 65535.
+[2018.12.15-21.45.35:831]: LOG: LogDefault     : FClientSession::FClientSession: ClientId=103
+[2018.12.15-21.45.35:832]: LOG: LogDefault     : FClientSession::OnRenegotiationNeeded : ClientId=103
+[2018.12.15-21.45.35:833]: LOG: LogDefault     : FClientSession::OnRenegotiationNeeded : ClientId=103
+[2018.12.15-21.45.35:833]: LOG: LogDefault     : Received offer from client 103 : v=0
+o=- 938562086508896835 2 IN IP4 127.0.0.1
+s=-
+t=0 0
+a=group:BUNDLE audio video data
+a=msid-semantic: WMS
+m=audio 9 UDP/TLS/RTP/SAVPF 111 103 9 102 0 8 105 13 110 113 126
+c=IN IP4 0.0.0.0
+a=rtcp:9 IN IP4 0.0.0.0
+a=ice-ufrag:0BvV
+a=ice-pwd:JUyZEYsvRxGcxC+v8FKiVU/x
+a=ice-options:trickle
+a=fingerprint:sha-256 99:A9:6F:04:7C:4C:9E:D3:D2:96:69:E6:A3:52:F8:66:4B:0A:03:A0:32:F2:49:B0:07:6C:11:D3:59:54:67:0A
+a=setup:actpass
+a=mid:audio
+a=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level
+a=recvonly
+a=rtcp-mux
+a=rtpmap:111 opus/48000/2
+a=rtcp-fb:111 transport-cc
+a=fmtp:111 minptime=10;useinbandfec=1
+a=rtpmap:103 ISAC/16000
+a=rtpmap:9 G722/8000
+a=rtpmap:102 ILBC/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:8 PCMA/8000
+a=rtpmap:105 CN/16000
+a=rtpmap:13 CN/8000
+a=rtpmap:110 telephone-event/48000
+a=rtpmap:113 telephone-event/16000
+a=rtpmap:126 telephone-event/8000
+m=video 9 UDP/TLS/RTP/SAVPF 96 97 98 99 100
+c=IN IP4 0.0.0.0
+a=rtcp:9 IN IP4 0.0.0.0
+a=ice-ufrag:0BvV
+a=ice-pwd:JUyZEYsvRxGcxC+v8FKiVU/x
+a=ice-options:trickle
+a=fingerprint:sha-256 99:A9:6F:04:7C:4C:9E:D3:D2:96:69:E6:A3:52:F8:66:4B:0A:03:A0:32:F2:49:B0:07:6C:11:D3:59:54:67:0A
+a=setup:actpass
+a=mid:video
+a=extmap:2 urn:ietf:params:rtp-hdrext:toffset
+a=extmap:3 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time
+a=extmap:4 urn:3gpp:video-orientation
+a=extmap:5 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01
+a=extmap:6 http://www.webrtc.org/experiments/rtp-hdrext/playout-delay
+a=extmap:7 http://www.webrtc.org/experiments/rtp-hdrext/video-content-type
+a=extmap:8 http://www.webrtc.org/experiments/rtp-hdrext/video-timing
+a=recvonly
+a=rtcp-mux
+a=rtcp-rsize
+a=rtpmap:96 H264/90000
+a=rtcp-fb:96 goog-remb
+a=rtcp-fb:96 transport-cc
+a=rtcp-fb:96 ccm fir
+a=rtcp-fb:96 nack
+a=rtcp-fb:96 nack pli
+a=fmtp:96 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42e01f;x-google-start-bitrate=20000;x-google-max-bitrate=100000
+a=rtpmap:97 rtx/90000
+a=fmtp:97 apt=96
+a=rtpmap:98 red/90000
+a=rtpmap:99 rtx/90000
+a=fmtp:99 apt=98
+a=rtpmap:100 ulpfec/90000
+m=application 9 DTLS/SCTP 5000
+c=IN IP4 0.0.0.0
+a=ice-ufrag:0BvV
+a=ice-pwd:JUyZEYsvRxGcxC+v8FKiVU/x
+a=ice-options:trickle
+a=fingerprint:sha-256 99:A9:6F:04:7C:4C:9E:D3:D2:96:69:E6:A3:52:F8:66:4B:0A:03:A0:32:F2:49:B0:07:6C:11:D3:59:54:67:0A
+a=setup:actpass
+a=mid:data
+a=sctpmap:5000 webrtc-datachannel 1024
+
+[2018.12.15-21.45.35:834]: LOG: LogDefault     : FClientSession::OnSignalingChange : ClientId=103, NewState=kHaveRemoteOffer
+[2018.12.15-21.45.35:835]: LOG: LogDefault     : Answer for client 103 : v=0
+o=- 4248087911624993707 2 IN IP4 127.0.0.1
+s=-
+t=0 0
+a=group:BUNDLE audio video data
+a=msid-semantic: WMS stream_id
+m=audio 9 UDP/TLS/RTP/SAVPF 111 110
+c=IN IP4 0.0.0.0
+a=rtcp:9 IN IP4 0.0.0.0
+a=ice-ufrag:l2rg
+a=ice-pwd:HjpUWPpwFq0ahrdrBoLkVXop
+a=ice-options:trickle
+a=fingerprint:sha-256 AB:96:2C:94:67:A4:32:FC:EB:A0:74:42:3F:B6:12:DC:C6:C6:79:EE:7A:8D:66:F7:AB:9C:6F:3C:F7:EF:4D:6F
+a=setup:active
+a=mid:audio
+a=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level
+a=sendonly
+a=msid:stream_id audio_label
+a=rtcp-mux
+a=rtpmap:111 opus/48000/2
+a=rtcp-fb:111 transport-cc
+a=fmtp:111 minptime=10;useinbandfec=1
+a=rtpmap:110 telephone-event/48000
+a=ssrc:4247428720 cname:XMGIMCUbQM7AmbAn
+a=ssrc:4247428720 msid:stream_id audio_label
+a=ssrc:4247428720 mslabel:stream_id
+a=ssrc:4247428720 label:audio_label
+m=video 9 UDP/TLS/RTP/SAVPF 96 97 98 99 100
+c=IN IP4 0.0.0.0
+a=rtcp:9 IN IP4 0.0.0.0
+a=ice-ufrag:l2rg
+a=ice-pwd:HjpUWPpwFq0ahrdrBoLkVXop
+a=ice-options:trickle
+a=fingerprint:sha-256 AB:96:2C:94:67:A4:32:FC:EB:A0:74:42:3F:B6:12:DC:C6:C6:79:EE:7A:8D:66:F7:AB:9C:6F:3C:F7:EF:4D:6F
+a=setup:active
+a=mid:video
+a=extmap:2 urn:ietf:params:rtp-hdrext:toffset
+a=extmap:3 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time
+a=extmap:4 urn:3gpp:video-orientation
+a=extmap:5 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01
+a=extmap:6 http://www.webrtc.org/experiments/rtp-hdrext/playout-delay
+a=extmap:7 http://www.webrtc.org/experiments/rtp-hdrext/video-content-type
+a=extmap:8 http://www.webrtc.org/experiments/rtp-hdrext/video-timing
+a=sendonly
+a=msid:stream_id video_label
+a=rtcp-mux
+a=rtcp-rsize
+a=rtpmap:96 H264/90000
+a=rtcp-fb:96 goog-remb
+a=rtcp-fb:96 transport-cc
+a=rtcp-fb:96 ccm fir
+a=rtcp-fb:96 nack
+a=rtcp-fb:96 nack pli
+a=fmtp:96 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42e033
+a=rtpmap:97 rtx/90000
+a=fmtp:97 apt=96
+a=rtpmap:98 red/90000
+a=rtpmap:99 rtx/90000
+a=fmtp:99 apt=98
+a=rtpmap:100 ulpfec/90000
+a=ssrc-group:FID 1247624252 487493994
+a=ssrc:1247624252 cname:XMGIMCUbQM7AmbAn
+a=ssrc:1247624252 msid:stream_id video_label
+a=ssrc:1247624252 mslabel:stream_id
+a=ssrc:1247624252 label:video_label
+a=ssrc:487493994 cname:XMGIMCUbQM7AmbAn
+a=ssrc:487493994 msid:stream_id video_label
+a=ssrc:487493994 mslabel:stream_id
+a=ssrc:487493994 label:video_label
+m=application 9 DTLS/SCTP 5000
+c=IN IP4 0.0.0.0
+b=AS:30
+a=ice-ufrag:l2rg
+a=ice-pwd:HjpUWPpwFq0ahrdrBoLkVXop
+a=ice-options:trickle
+a=fingerprint:sha-256 AB:96:2C:94:67:A4:32:FC:EB:A0:74:42:3F:B6:12:DC:C6:C6:79:EE:7A:8D:66:F7:AB:9C:6F:3C:F7:EF:4D:6F
+a=setup:active
+a=mid:data
+a=sctpmap:5000 webrtc-datachannel 1024
+
+[2018.12.15-21.45.35:836]: LOG: LogDefault     : FClientSession::OnSignalingChange : ClientId=103, NewState=kStable
+[2018.12.15-21.45.35:838]: LOG: LogDefault     : FClientSession::OnIceGatheringChange : ClientId=103, NewState=kIceGatheringGathering
+[2018.12.15-21.45.35:838]: LOG: LogDefault     : FClientSession::OnIceCandidate : ClientId=103
+[2018.12.15-21.45.35:839]: LOG: LogDefault     : Sending ICE candidate to Client 103 (sdp_mline_index=0) : candidate:3484812266 1 udp 2122260223 192.168.2.48 57065 typ host generation 0 ufrag l2rg network-id 1
+[2018.12.15-21.45.35:940]: LOG: LogDefault     : FClientSession::OnIceCandidate : ClientId=103
+[2018.12.15-21.45.35:941]: LOG: LogDefault     : Sending ICE candidate to Client 103 (sdp_mline_index=0) : candidate:2167799578 1 tcp 1518280447 192.168.2.48 63420 typ host tcptype passive generation 0 ufrag l2rg network-id 1
+[2018.12.15-21.45.35:941]: LOG: LogDefault     : FClientSession::OnIceGatheringChange : ClientId=103, NewState=kIceGatheringComplete
+[2018.12.15-21.45.56:699]: LOG: LogDefault     : Client 103 disconnected
+[2018.12.15-21.45.56:700]: LOG: LogDefault     : FClientSession::~FClientSession: ClientId=103
+[2018.12.15-21.45.58:579]: LOG: LogDefault     : FClientSession::FClientSession: ClientId=104
+[2018.12.15-21.45.58:581]: LOG: LogDefault     : FClientSession::OnRenegotiationNeeded : ClientId=104
+[2018.12.15-21.45.58:582]: LOG: LogDefault     : FClientSession::OnRenegotiationNeeded : ClientId=104
+[2018.12.15-21.45.58:582]: LOG: LogDefault     : Received offer from client 104 : v=0
+o=- 1932523663954624545 2 IN IP4 127.0.0.1
+s=-
+t=0 0
+a=group:BUNDLE audio video data
+a=msid-semantic: WMS
+m=audio 9 UDP/TLS/RTP/SAVPF 111 103 9 102 0 8 105 13 110 113 126
+c=IN IP4 0.0.0.0
+a=rtcp:9 IN IP4 0.0.0.0
+a=ice-ufrag:lgV+
+a=ice-pwd:nU1uLgfDUTyAfvpMSvSVCoQY
+a=ice-options:trickle
+a=fingerprint:sha-256 F9:2F:23:AC:10:26:CD:E1:F1:6E:57:E9:AA:C6:69:8F:1B:B6:F4:DC:A6:91:3E:33:E2:11:5D:08:07:E6:37:09
+a=setup:actpass
+a=mid:audio
+a=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level
+a=recvonly
+a=rtcp-mux
+a=rtpmap:111 opus/48000/2
+a=rtcp-fb:111 transport-cc
+a=fmtp:111 minptime=10;useinbandfec=1
+a=rtpmap:103 ISAC/16000
+a=rtpmap:9 G722/8000
+a=rtpmap:102 ILBC/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:8 PCMA/8000
+a=rtpmap:105 CN/16000
+a=rtpmap:13 CN/8000
+a=rtpmap:110 telephone-event/48000
+a=rtpmap:113 telephone-event/16000
+a=rtpmap:126 telephone-event/8000
+m=video 9 UDP/TLS/RTP/SAVPF 96 97 98 99 100
+c=IN IP4 0.0.0.0
+a=rtcp:9 IN IP4 0.0.0.0
+a=ice-ufrag:lgV+
+a=ice-pwd:nU1uLgfDUTyAfvpMSvSVCoQY
+a=ice-options:trickle
+a=fingerprint:sha-256 F9:2F:23:AC:10:26:CD:E1:F1:6E:57:E9:AA:C6:69:8F:1B:B6:F4:DC:A6:91:3E:33:E2:11:5D:08:07:E6:37:09
+a=setup:actpass
+a=mid:video
+a=extmap:2 urn:ietf:params:rtp-hdrext:toffset
+a=extmap:3 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time
+a=extmap:4 urn:3gpp:video-orientation
+a=extmap:5 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01
+a=extmap:6 http://www.webrtc.org/experiments/rtp-hdrext/playout-delay
+a=extmap:7 http://www.webrtc.org/experiments/rtp-hdrext/video-content-type
+a=extmap:8 http://www.webrtc.org/experiments/rtp-hdrext/video-timing
+a=recvonly
+a=rtcp-mux
+a=rtcp-rsize
+a=rtpmap:96 H264/90000
+a=rtcp-fb:96 goog-remb
+a=rtcp-fb:96 transport-cc
+a=rtcp-fb:96 ccm fir
+a=rtcp-fb:96 nack
+a=rtcp-fb:96 nack pli
+a=fmtp:96 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42e01f;x-google-start-bitrate=20000;x-google-max-bitrate=100000
+a=rtpmap:97 rtx/90000
+a=fmtp:97 apt=96
+a=rtpmap:98 red/90000
+a=rtpmap:99 rtx/90000
+a=fmtp:99 apt=98
+a=rtpmap:100 ulpfec/90000
+m=application 9 DTLS/SCTP 5000
+c=IN IP4 0.0.0.0
+a=ice-ufrag:lgV+
+a=ice-pwd:nU1uLgfDUTyAfvpMSvSVCoQY
+a=ice-options:trickle
+a=fingerprint:sha-256 F9:2F:23:AC:10:26:CD:E1:F1:6E:57:E9:AA:C6:69:8F:1B:B6:F4:DC:A6:91:3E:33:E2:11:5D:08:07:E6:37:09
+a=setup:actpass
+a=mid:data
+a=sctpmap:5000 webrtc-datachannel 1024
+
+[2018.12.15-21.45.58:584]: LOG: LogDefault     : FClientSession::OnSignalingChange : ClientId=104, NewState=kHaveRemoteOffer
+[2018.12.15-21.45.58:585]: LOG: LogDefault     : Answer for client 104 : v=0
+o=- 5628371748056542797 2 IN IP4 127.0.0.1
+s=-
+t=0 0
+a=group:BUNDLE audio video data
+a=msid-semantic: WMS stream_id
+m=audio 9 UDP/TLS/RTP/SAVPF 111 110
+c=IN IP4 0.0.0.0
+a=rtcp:9 IN IP4 0.0.0.0
+a=ice-ufrag:I5hy
+a=ice-pwd:lT39HTneO7/ntasUnuA0TgF+
+a=ice-options:trickle
+a=fingerprint:sha-256 15:D7:20:90:B1:E8:AE:0F:C3:E2:FA:84:44:1F:BF:9F:DC:5E:51:6D:6E:61:C6:BF:3A:D9:DD:6F:5B:B0:0B:A5
+a=setup:active
+a=mid:audio
+a=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level
+a=sendonly
+a=msid:stream_id audio_label
+a=rtcp-mux
+a=rtpmap:111 opus/48000/2
+a=rtcp-fb:111 transport-cc
+a=fmtp:111 minptime=10;useinbandfec=1
+a=rtpmap:110 telephone-event/48000
+a=ssrc:2409122044 cname:OD8kqvI8/39e/cB6
+a=ssrc:2409122044 msid:stream_id audio_label
+a=ssrc:2409122044 mslabel:stream_id
+a=ssrc:2409122044 label:audio_label
+m=video 9 UDP/TLS/RTP/SAVPF 96 97 98 99 100
+c=IN IP4 0.0.0.0
+a=rtcp:9 IN IP4 0.0.0.0
+a=ice-ufrag:I5hy
+a=ice-pwd:lT39HTneO7/ntasUnuA0TgF+
+a=ice-options:trickle
+a=fingerprint:sha-256 15:D7:20:90:B1:E8:AE:0F:C3:E2:FA:84:44:1F:BF:9F:DC:5E:51:6D:6E:61:C6:BF:3A:D9:DD:6F:5B:B0:0B:A5
+a=setup:active
+a=mid:video
+a=extmap:2 urn:ietf:params:rtp-hdrext:toffset
+a=extmap:3 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time
+a=extmap:4 urn:3gpp:video-orientation
+a=extmap:5 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01
+a=extmap:6 http://www.webrtc.org/experiments/rtp-hdrext/playout-delay
+a=extmap:7 http://www.webrtc.org/experiments/rtp-hdrext/video-content-type
+a=extmap:8 http://www.webrtc.org/experiments/rtp-hdrext/video-timing
+a=sendonly
+a=msid:stream_id video_label
+a=rtcp-mux
+a=rtcp-rsize
+a=rtpmap:96 H264/90000
+a=rtcp-fb:96 goog-remb
+a=rtcp-fb:96 transport-cc
+a=rtcp-fb:96 ccm fir
+a=rtcp-fb:96 nack
+a=rtcp-fb:96 nack pli
+a=fmtp:96 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42e033
+a=rtpmap:97 rtx/90000
+a=fmtp:97 apt=96
+a=rtpmap:98 red/90000
+a=rtpmap:99 rtx/90000
+a=fmtp:99 apt=98
+a=rtpmap:100 ulpfec/90000
+a=ssrc-group:FID 4147020071 3770178494
+a=ssrc:4147020071 cname:OD8kqvI8/39e/cB6
+a=ssrc:4147020071 msid:stream_id video_label
+a=ssrc:4147020071 mslabel:stream_id
+a=ssrc:4147020071 label:video_label
+a=ssrc:3770178494 cname:OD8kqvI8/39e/cB6
+a=ssrc:3770178494 msid:stream_id video_label
+a=ssrc:3770178494 mslabel:stream_id
+a=ssrc:3770178494 label:video_label
+m=application 9 DTLS/SCTP 5000
+c=IN IP4 0.0.0.0
+b=AS:30
+a=ice-ufrag:I5hy
+a=ice-pwd:lT39HTneO7/ntasUnuA0TgF+
+a=ice-options:trickle
+a=fingerprint:sha-256 15:D7:20:90:B1:E8:AE:0F:C3:E2:FA:84:44:1F:BF:9F:DC:5E:51:6D:6E:61:C6:BF:3A:D9:DD:6F:5B:B0:0B:A5
+a=setup:active
+a=mid:data
+a=sctpmap:5000 webrtc-datachannel 1024
+
+[2018.12.15-21.45.58:587]: LOG: LogDefault     : FClientSession::OnSignalingChange : ClientId=104, NewState=kStable
+[2018.12.15-21.45.58:589]: LOG: LogDefault     : FClientSession::OnIceGatheringChange : ClientId=104, NewState=kIceGatheringGathering
+[2018.12.15-21.45.58:593]: LOG: LogDefault     : FClientSession::OnIceCandidate : ClientId=104
+[2018.12.15-21.45.58:593]: LOG: LogDefault     : Sending ICE candidate to Client 104 (sdp_mline_index=0) : candidate:3484812266 1 udp 2122260223 192.168.2.48 52406 typ host generation 0 ufrag I5hy network-id 1
+[2018.12.15-21.45.58:691]: LOG: LogDefault     : FClientSession::OnIceCandidate : ClientId=104
+[2018.12.15-21.45.58:692]: LOG: LogDefault     : Sending ICE candidate to Client 104 (sdp_mline_index=0) : candidate:2167799578 1 tcp 1518280447 192.168.2.48 63426 typ host tcptype passive generation 0 ufrag I5hy network-id 1
+[2018.12.15-21.45.58:692]: LOG: LogDefault     : FClientSession::OnIceGatheringChange : ClientId=104, NewState=kIceGatheringComplete
+[2018.12.15-21.46.09:443]: LOG: LogDefault     : FClientSession::OnIceConnectionChange : ClientId=104, NewState=kIceConnectionConnected
+[2018.12.15-21.46.09:454]: LOG: LogDefault     : key-frame requested, size=1
+[2018.12.15-21.46.09:467]: LOG: LogDefault     : FClientSession::OnDataChannel : ClientId=104
+[2018.12.15-21.46.09:488]: LOG: LogDefault     : key-frame requested, size=1
+[2018.12.15-21.46.14:098]: LOG: LogDefault     : FVideoEncoder::SetQualityControlOwnership : ClientId=102, Ownership=false
+[2018.12.15-21.46.14:099]: LOG: LogDefault     : FVideoEncoder::SetQualityControlOwnership : ClientId=104, Ownership=true
+[2018.12.15-21.46.14:104]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=57040 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.46.14:720]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=56972 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.46.18:221]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=57045 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.46.18:971]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=57027 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.46.19:671]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=57082 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.46.20:988]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=57100 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.46.21:921]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=57138 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.46.26:938]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=56620 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.46.28:238]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=57138 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.46.31:521]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=57063 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.46.33:705]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=57138 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.46.35:855]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=57081 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.46.37:089]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=57138 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.46.41:038]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=57100 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.46.41:722]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=57100 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.46.42:456]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=57082 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.46.43:638]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=57138 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.46.48:273]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=56684 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.46.49:706]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=57101 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.46.50:873]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=57043 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.46.51:890]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=56894 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.46.53:106]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=57080 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.46.54:007]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=57026 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.46.54:556]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=57138 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.46.57:807]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=57064 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.46.59:157]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=57138 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.47.09:608]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=57025 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.47.10:774]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=57138 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.47.21:959]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=56937 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.47.23:425]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=57138 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.47.25:226]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=56636 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.47.25:859]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=57138 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.47.29:776]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=57120 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.47.30:443]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=57025 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.47.31:892]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=57138 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.47.49:594]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=57082 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.47.50:895]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=57082 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.47.52:311]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=57138 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.47.54:344]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=57083 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.47.55:395]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=57138 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.47.58:178]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=57044 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.47.59:494]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=57101 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.48.00:128]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=57138 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.48.03:178]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=57099 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.48.05:578]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=57138 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.48.12:212]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=56931 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.48.13:578]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=57138 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.48.16:312]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=57119 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.48.17:612]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=57138 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.48.22:213]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=56328 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.48.23:580]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=57138 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.48.26:730]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=56738 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.48.27:948]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=57138 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.48.30:096]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=57063 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.48.31:097]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=57138 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.48.32:281]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=56951 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.48.33:114]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=56952 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.48.34:597]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=57138 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.48.45:249]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=57102 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.48.45:931]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=57063 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.48.46:515]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=57101 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.48.47:132]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=57138 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.49.01:749]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=57006 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.49.03:767]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=57138 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.49.14:966]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=57064 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.49.15:933]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=57138 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.49.21:251]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=57119 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.49.22:250]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=57138 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.49.23:467]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=56337 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.49.24:217]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=56970 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.49.24:901]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=57138 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.49.25:734]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=57083 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.49.26:385]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=57138 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.49.27:368]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=57063 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.49.28:268]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=57040 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.49.31:901]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=56932 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.49.34:552]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=57138 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.49.37:968]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=56896 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.49.40:119]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=57138 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.49.42:852]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=57120 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.49.43:469]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=56710 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.49.44:568]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=57138 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.49.46:902]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=56953 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.49.47:635]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=57024 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.49.48:901]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=57138 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.49.57:335]: LOG: LogDefault     : FVideoEncoder::SetRateAllocation : ClientId=104, Bitrate=52512 kbps, framerate=60, lifted framerate=61
+[2018.12.15-21.49.57:835]: LOG: LogDefault     : key-frame requested, size=1
+[2018.12.15-21.50.00:773]: LOG: LogDefault     : Client 104 disconnected
+[2018.12.15-21.50.00:773]: LOG: LogDefault     : FClientSession::~FClientSession: ClientId=104
+[2018.12.15-21.50.39:233]: LOG: LogDefault     : FClientSession::OnIceConnectionChange : ClientId=101, NewState=kIceConnectionDisconnected
+[2018.12.15-21.50.44:577]: LOG: LogDefault     : Client 102 disconnected
+[2018.12.15-21.50.44:578]: LOG: LogDefault     : FClientSession::~FClientSession: ClientId=102
+[2018.12.15-21.50.48:708]: WRN: LogDefault     : Disconnected from UE4, error 10053. Reconnecting...
+[2018.12.15-21.50.48:709]: LOG: LogDefault     : FClientSession::~FClientSession: ClientId=101

@@ -1,0 +1,47 @@
+16:44:04.624 Config: {
+	"UseFrontend": false,
+	"UseMatchmaker": false,
+	"UseHTTPS": false,
+	"UseAuthentication": false,
+	"LogToFile": true,
+	"HomepageFile": "player.htm",
+	"AdditionalRoutes": {}
+}
+16:44:04.710 Listening to proxy connections on: 8888
+16:44:04.710 Http listening on *: 80
+16:44:04.768 proxy connected
+16:44:04.768 config to Proxy: {"peerConnectionConfig":{}}
+16:44:31.659 client 101 (::ffff:192.168.2.14) connected
+16:44:31.668 client 101: userConfig = {"emitData":"ArrayBuffer"}
+16:44:31.781 offer <- client 101
+16:44:31.781 ICE candidate <- client 101
+16:44:31.782 ICE candidate <- client 101
+16:44:31.782 ICE candidate <- client 101
+16:44:31.792 answer -> client 101
+16:44:31.794 ICE candidate -> client 101
+16:44:45.338 client 102 (::ffff:127.0.0.1) connected
+16:44:45.343 client 102: userConfig = {"emitData":"ArrayBuffer"}
+16:44:45.355 offer <- client 102
+16:44:45.358 ICE candidate <- client 102
+16:44:45.360 ICE candidate <- client 102
+16:44:45.361 ICE candidate <- client 102
+16:44:45.374 answer -> client 102
+16:44:45.375 ICE candidate -> client 102
+16:45:35.739 client 103 (::ffff:192.168.2.12) connected
+16:45:35.761 client 103: userConfig = {"emitData":"ArrayBuffer"}
+16:45:35.831 offer <- client 103
+16:45:35.838 answer -> client 103
+16:45:35.839 ICE candidate -> client 103
+16:45:35.942 ICE candidate -> client 103
+16:45:56.699 client 103 disconnected
+16:45:58.529 client 104 (::ffff:192.168.2.12) connected
+16:45:58.545 client 104: userConfig = {"emitData":"ArrayBuffer"}
+16:45:58.579 offer <- client 104
+16:45:58.590 answer -> client 104
+16:45:58.594 ICE candidate -> client 104
+16:45:58.693 ICE candidate -> client 104
+16:50:00.773 client 104 disconnected
+16:50:44.576 client 102 disconnected
+16:50:48.724 proxy connection end
+16:50:48.725 client 101 disconnected
+16:50:48.725 proxy connection closed

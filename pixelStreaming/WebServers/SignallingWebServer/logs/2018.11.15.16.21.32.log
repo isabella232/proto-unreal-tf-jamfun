@@ -1,0 +1,21 @@
+16:21:32.528 Config: {
+	"UseFrontend": false,
+	"UseMatchmaker": false,
+	"UseHTTPS": false,
+	"UseAuthentication": false,
+	"LogToFile": true,
+	"HomepageFile": "player.htm",
+	"AdditionalRoutes": {}
+}
+16:21:32.611 Listening to proxy connections on: 8888
+16:21:32.612 Http listening on *: 80
+16:37:13.472 proxy connected
+16:37:13.472 config to Proxy: {"peerConnectionConfig":{}}
+16:37:25.269 client 101 (::ffff:127.0.0.1) connected
+16:37:25.278 client 101: userConfig = {"emitData":"ArrayBuffer"}
+16:37:25.387 offer <- client 101
+16:37:25.388 ICE candidate <- client 101
+16:37:25.388 ICE candidate <- client 101
+16:37:25.388 ICE candidate <- client 101
+16:37:25.416 answer -> client 101
+16:37:25.417 ICE candidate -> client 101
