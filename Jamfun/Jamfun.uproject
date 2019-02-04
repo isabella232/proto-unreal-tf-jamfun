@@ -11,6 +11,14 @@
 		{
 			"Name": "PixelStreaming",
 			"Enabled": true
+		},
+		{
+			"Name": "Niagara",
+			"Enabled": true
+		},
+		{
+			"Name": "NiagaraExtras",
+			"Enabled": true
 		}
 	],
 	"TargetPlatforms": [
